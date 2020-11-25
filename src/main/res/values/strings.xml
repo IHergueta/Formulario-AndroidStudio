@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Práctica1</string>
+    <string name="welcome">Bienvenido a esta aplicacion</string>
+    <string name="form">Formulario</string>
+    <string name="mail">Mandar Email</string>
+    <string name="txt1">Nombre y Apellidos</string>
+    <string name="dato1">Escribe algo</string>
+    <string name="txt2">Dni</string>
+    <string name="txt3">Nacionalidad</string>
+    <string name="arrayname">Nacionalidades</string>
+    <string name="txt4">Correo electrónico</string>
+    <string name="txt5">Suscribirse al boletín de noticias</string>
+    <string name="enviar">Enviar</string>
+    <string name="completo">Envio Completado</string>
+    <string name="datos">Datos</string>
+
+
+    <string-array name="nacionalidades">
+        <item>Peruan@</item>
+        <item>Venezolan@</item>
+        <item>Español@</item>
+        <item>Rus@</item>
+        <item>Italiano@</item>
+        <item>Brasileñ@</item>
+    </string-array>
+
+
+</resources>

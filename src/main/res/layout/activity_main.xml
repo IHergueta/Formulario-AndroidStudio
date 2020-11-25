@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="30dp"
+        android:paddingBottom="50dp"
+        android:text="@string/welcome"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:background="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:layout_below="@id/txt2"
+        android:text="@string/form" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:background="@color/colorAccent"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:layout_marginTop="400dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt2"
+        android:text="@string/mail" />
+
+
+</RelativeLayout>

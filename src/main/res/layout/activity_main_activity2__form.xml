@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2_Form"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <TextView
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/form"
+            android:id="@+id/toolbar2" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt1"
+        android:id="@+id/txt1"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dato1"
+        android:hint="@string/dato1"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt2"
+        android:id="@+id/txt2"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dato1"
+        android:id="@+id/dato2"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt3"
+        android:id="@+id/txt3"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        />
+
+    <Spinner
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin"
+        android:layout_gravity="center"
+        android:entries="@array/nacionalidades"
+        android:prompt="@string/arrayname" />
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt4"
+        android:id="@+id/txt4"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dato1"
+        android:id="@+id/dato3"
+        />
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt5"
+        android:id="@+id/txt5"
+        android:textSize="20dp"
+        />
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/txt5"
+        android:id="@+id/check"
+        />
+
+    <Button
+        android:layout_marginTop="65dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:background="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:layout_below="@id/txt5"
+        android:text="@string/enviar" />
+
+</RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
